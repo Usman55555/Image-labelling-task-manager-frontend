@@ -127,7 +127,7 @@ class Dashboard extends React.Component {
   }
 
   componentDidUpdate() {
-    console.log('COMPONENT UPDATED')
+    // console.log('COMPONENT UPDATED')
     // console.log(this.props.search)
 
     var result = [], match = new RegExp(this.props.search, 'gi')

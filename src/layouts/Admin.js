@@ -43,7 +43,7 @@ const useStyles = makeStyles(styles);
 
 const AdminComponent = function Admin({ ...rest }) {
   if(localStorage.getItem('token') === null){
-    console.log('Token not found.')
+    // console.log('Token not found.')
     rest.history.push('../login')
   }
 
