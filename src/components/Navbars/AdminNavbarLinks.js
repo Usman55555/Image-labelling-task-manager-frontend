@@ -64,7 +64,6 @@ const AdminNavbarLinks = (props) => {
   return (
     <div>
       {/* search */}
-      {/* {console.log(props.token)} */}
       <div className={classes.searchWrapper} style={{paddingRight:'380px' }}>
         <CustomInput
           formControlProps={{
